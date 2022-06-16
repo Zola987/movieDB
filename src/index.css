@@ -61,3 +61,33 @@ main {
 .year {
   text-align: center;
 }
+
+.single-container {
+  width: 100vw;
+  max-width: 1170px;
+  margin: 20px 0 0 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.single-container img {
+  width: 400px;
+  display: block;
+}
+
+.single-container h2 {
+  max-width: 1000px;
+}
+
+.single-container p {
+  max-width: 300px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.back-link {
+  color: brown;
+}
